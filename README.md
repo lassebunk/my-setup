@@ -27,7 +27,7 @@ Let me know in the issues if you have any questions.
 
 1. [Dropbox](https://www.dropbox.com/)
 
-   Sync between computers + backup.
+   Sync files between computers + backup.
 
 1. [Sublime Text](http://www.sublimetext.com/)
 
