@@ -21,7 +21,7 @@ Let me know in the issues if you have any questions.
 
      Development tools and debugging.
 
-   * Add-on: [Web Developer](https://addons.mozilla.org/en-US/firefox/addon/web-developer/)
+   * [Web Developer](https://addons.mozilla.org/en-US/firefox/addon/web-developer/)
 
      Web developer tools.
 
@@ -30,6 +30,7 @@ Let me know in the issues if you have any questions.
    Sync between computers + backup.
 
 1. [Sublime Text](http://www.sublimetext.com/)
+
    Code and text editor.
 
    * Add `subl` command:
@@ -55,13 +56,12 @@ Let me know in the issues if you have any questions.
 
    * Add beginning/end of line/word, in *Preferences &rarr; Keys*:
 
-     ```
-     FOR  ACTION          SEND
-     ⌘←   "HEX CODE"      0x01 
-     ⌘→   "HEX CODE"      0x05
-     ⌥←   "SEND ESC SEQ"  b
-     ⌥→   "SEND ESC SEQ"  f
-     ```
+     For | Action               | Send
+     ----|----------------------|------
+     ⌘←  | Hex code             | 0x01 
+     ⌘→  | Hex code             | 0x05
+     ⌥←  | Send escape sequence | b
+     ⌥→  | Send escape sequence | f
 
 1. [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 
@@ -100,6 +100,7 @@ Let me know in the issues if you have any questions.
    ```
 
 1. [MySQL](http://www.mysql.com/)
+   
    Database server.
 
    ```
@@ -150,10 +151,9 @@ Let me know in the issues if you have any questions.
 
    In *System Preferences &rarr; Mission Control &rarr; Hot Corners...*:
 
-   Top left: *Mission Control*
-   
-   Top right: *Application Windows*
-   
-   Bottom left: *Desktop*
-   
-   Bottom right: *Put Display to Sleep*
+   Corner       | Action
+   -------------|---------------------
+   Top left     | Mission Control
+   Top right    | Application Windows
+   Bottom left  | Desktop
+   Bottom right | Put Display to Sleep
