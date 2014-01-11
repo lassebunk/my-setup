@@ -135,7 +135,7 @@ Let me know in the issues if you have any questions.
 
 1. [Java](http://java.com/getjava)
 
-   Needed for a Ruby gem I use, and for "secure" single-sign-on on Danish websites.
+   Needed for a Ruby gem I use, and for single-sign-on on Danish websites.
 
 1. [Pow](http://pow.cx/)
 
