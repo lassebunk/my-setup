@@ -144,6 +144,10 @@ Let me know in the issues if you have any questions.
 1. [ImageMagick](http://www.imagemagick.org/)
 
    Image manipulation and conversion. Used by a gem I use.
+   
+1. [f.lux](https://justgetflux.com/)
+   
+   Warms the screen colors at night.
 
 ## Setup
 
