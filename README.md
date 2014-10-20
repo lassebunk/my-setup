@@ -140,6 +140,38 @@ Let me know in the issues if you have any questions.
 1. [Pow](http://pow.cx/)
 
    Rails/Rack development server that lets you serve your local development websites on internal .dev domains.
+   
+   **Serving PHP with Pow**
+   
+   Make Pow go to port 81 by default:
+   
+   ```
+   $ echo 81 > ~/.pow/default
+   ```
+   
+   Make Apache listen on port 81. In */etc/apache2/httpd.conf*:
+   
+   ```
+   Listen 81
+   ```
+   
+   Then, in the same file, add:
+   
+   ```
+   LoadModule vhost_alias_module libexec/apache2/mod_vhost_alias.so
+
+   <VirtualHost 127.0.0.1:81>
+      ServerName any.dev
+      ServerAlias *.dev
+      VirtualDocumentRoot "/Users/lassebunk/dev/web/%1"
+   </VirtualHost>
+   ```
+   
+   And restart Apache:
+   
+   ```
+   $ sudo apachectl -k restart
+   ```
 
 1. [ImageMagick](http://www.imagemagick.org/)
 
