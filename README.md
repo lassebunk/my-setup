@@ -198,7 +198,5 @@ Let me know in the issues if you have any questions.
 
    Corner       | Action
    -------------|---------------------
-   Top left     | Mission Control
-   Top right    | Application Windows
    Bottom left  | Desktop
    Bottom right | Put Display to Sleep
