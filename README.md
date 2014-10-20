@@ -155,10 +155,19 @@ Let me know in the issues if you have any questions.
    Listen 81
    ```
    
-   Then, in the same file, add:
+   Enable this module:
    
    ```
    LoadModule vhost_alias_module libexec/apache2/mod_vhost_alias.so
+   ```
+   
+   And add:
+   
+   ```
+   <Directory "/Users/lassebunk/dev/web/">
+      AllowOverride All
+      Require all granted
+   </Directory>
 
    <VirtualHost 127.0.0.1:81>
       ServerName any.dev
