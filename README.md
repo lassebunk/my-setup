@@ -67,6 +67,12 @@ Let me know in the issues if you have any questions.
 
    Shell replacement with enhancements such as autocomplete, current git branch, shortcuts, etc.
 
+   Add aliases for zsh, in *~/.zshrc*:
+
+   ```bash
+   source ~/Dropbox/Dev/scripts/aliases
+   ```
+
 1. [Homebrew](http://brew.sh/)
 
    Package manager for OS X.
