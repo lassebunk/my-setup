@@ -5,10 +5,8 @@ Let me know in the issues if you have any questions.
 
 ## Software
 
-1. [Latest OS X](https://itunes.apple.com/dk/app/os-x-mavericks/id675248567?mt=12)
+1. Latest OS X
    
-   OS X Mavericks.
-
 1. [Firefox](http://www.mozilla.org/firefox)
 
    Web browser.
@@ -79,9 +77,7 @@ Let me know in the issues if you have any questions.
 
 1. [Curl](http://curl.haxx.se/)
 
-   The Curl that comes with OS X Mavericks is buggy when using with a certain Ruby gem.
-
-   Therefore I install a new Curl:
+   Install a new curl to ensure the latest version:
 
    ```
    $ brew install curl
