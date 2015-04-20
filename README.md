@@ -157,10 +157,11 @@ Let me know in the issues if you have any questions.
    Listen 81
    ```
    
-   Enable this module:
+   Enable these modules:
    
    ```
    LoadModule vhost_alias_module libexec/apache2/mod_vhost_alias.so
+   LoadModule rewrite_module libexec/apache2/mod_rewrite.so
    ```
    
    And add:
