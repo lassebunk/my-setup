@@ -162,6 +162,7 @@ Let me know in the issues if you have any questions.
    ```
    LoadModule vhost_alias_module libexec/apache2/mod_vhost_alias.so
    LoadModule rewrite_module libexec/apache2/mod_rewrite.so
+   LoadModule php5_module libexec/apache2/libphp5.so
    ```
    
    And add:
@@ -177,6 +178,8 @@ Let me know in the issues if you have any questions.
       ServerAlias *.dev
       VirtualDocumentRoot "/Users/lassebunk/dev/web/%1"
    </VirtualHost>
+   
+   AddType application/x-httpd-php .php
    ```
    
    And restart Apache:
