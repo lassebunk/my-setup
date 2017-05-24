@@ -9,7 +9,7 @@ Let me know in the issues if you have any questions.
    
 1. [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/)
 
-   Web browser.
+   Web browser with developer tools.
 
    * [JSONView](https://addons.mozilla.org/en-US/firefox/addon/10869/)
 
