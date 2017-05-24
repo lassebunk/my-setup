@@ -15,14 +15,6 @@ Let me know in the issues if you have any questions.
 
      View JSON documents in the browser.
 
-   * [Firebug](https://addons.mozilla.org/en-US/firefox/addon/firebug/)
-
-     Development tools and debugging.
-
-   * [Web Developer](https://addons.mozilla.org/en-US/firefox/addon/web-developer/)
-
-     Web developer tools.
-
 1. [Dropbox](https://www.dropbox.com/)
 
    Sync files between computers + backup.
