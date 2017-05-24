@@ -71,6 +71,18 @@ Let me know in the issues if you have any questions.
    source ~/Dropbox/Dev/scripts/aliases
    ```
 
+1. [iTerm One Color Theme](https://github.com/benniemosher/the-one-theme)
+   
+   Color theme that looks like Atom's One Dark theme.
+   
+   1. [Download theme](https://github.com/benniemosher/the-one-theme/archive/master.zip)
+   2. iTerm2 > Preferences > Profiles > Colors Tab
+   3. Click Load Presets...
+   4. Click Import...
+   5. Select the iterm/TheOne.itermcolors file
+   6. Select "The One" from Load Presets...
+
+
 1. [Homebrew](http://brew.sh/)
 
    Package manager for OS X.
