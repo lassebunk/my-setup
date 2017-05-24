@@ -27,7 +27,11 @@ Let me know in the issues if you have any questions.
 
    Sync files between computers + backup.
 
-1. [Sublime Text](http://www.sublimetext.com/)
+1. [Atom](https://atom.io/)
+
+   Text editor.
+
+1. Alternatively [Sublime Text](http://www.sublimetext.com/)
 
    Code and text editor.
 
