@@ -7,7 +7,7 @@ Let me know in the issues if you have any questions.
 
 1. Latest OS X
    
-1. [Firefox](http://www.mozilla.org/firefox)
+1. [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/)
 
    Web browser.
 
